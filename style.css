@@ -1,0 +1,117 @@
+#start-button {
+    font-size: 50px;
+    background-color: rgb(39, 183, 73);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#game-background {
+    width: 75vw;
+    height: 85vh;
+    position: relative; 
+    margin: auto;
+    border: 1px solid rgb(120, 244, 255);
+    background-color: rgb(120, 244, 255);
+    z-index: 0;
+}
+
+#score-style {
+    font-size: 30px;
+    color: rgb(248, 42, 42);
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    caret-color: transparent;
+    z-index: 3;
+}
+
+.sun-style {
+    width: 220px; 
+    height: 220px;
+    position: absolute; 
+    top: 3%;
+    left: 78%;
+    background-image: url('https://pngimg.com/uploads/sun/sun_PNG13416.png'); 
+    background-size: contain;
+    background-color: transparent;
+    caret-color: transparent;
+    z-index: 1;
+}
+
+.cloud-style {
+    width: 200px; 
+    height: 100px; 
+    background-image: url('https://www.freepnglogos.com/uploads/cloud-png/real-cloud-picture-8.png'); 
+    background-size: contain;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    caret-color: transparent;
+}
+
+.plane {
+    font-size: 70px;
+    display: inline-block;
+    position: absolute;
+    top: 83%;
+    transform: rotate(-47deg); 
+    caret-color: transparent;
+}
+
+.missile-style {
+    width: 15px; 
+    height: 40px; 
+    position: absolute;
+    transform: translateX(-38%);
+    background-image: url('https://www.freepnglogos.com/uploads/rocket-png/rocket-flying-clip-art-clkerm-vector-clip-art-26.png'); 
+    background-size: cover;
+    background-color: transparent;
+    caret-color: transparent;
+    z-index: 1;
+}
+
+.bomb-style {
+    width: 55px; 
+    height: 60px; 
+    position: absolute;
+    background-image: url('https://pngimg.com/uploads/bomb/bomb_PNG26.png'); 
+    background-size: cover;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.game-over {
+    width: 400px; 
+    height: 200px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('https://pngimg.com/uploads/game_over/game_over_PNG16.png');
+    background-size: contain;
+    background-color: transparent;
+    z-index: 3;
+}
+
+.restart-button {
+    width: 170px;
+    font-size: 45px;
+    background-color: rgb(39, 183, 73);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
