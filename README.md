@@ -20,4 +20,4 @@ Airplane Fighter is an interactive web-based game where players control an airpl
 
 ## Development
 
-Key functionalities include initializing the game environment, handling player inputs for movement and actions, and managing game dynamics like scoring and level progression. Functions also detect collisions, update game states, and render changes on the screen, ensuring a smooth and responsive gaming experience. 
+Key functionalities include initializing the game environment, handling player inputs for movement and actions, and managing game dynamics like scoring and level progression. Functions also detect collisions, update game states, and render changes on the screen, ensuring a responsive gaming experience. 
